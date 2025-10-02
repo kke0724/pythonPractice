@@ -8,7 +8,7 @@ if a<a2:
     A=a
     B=b
     A2=a2
-    B2=B
+    B2=b2 
 
 elif a==a2:
     if b<=b2:
