@@ -15,5 +15,3 @@ while i != 'q':
     z = int(input('계속하시겠습니까?(중단:q,계속:y):'))
     if z == 'q':
             break
-
-   
