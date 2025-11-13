@@ -1,13 +1,8 @@
-a = int(input("수를 입력하세요:"))
-              
-if a>=0 and a<=9:
-    print("%d는 한자리 숫자이다." % a)
+r =float(input("반지름을 입력하세요:"))
 
-elif a>=10 and a<=99:
-    print("%d는 두자리 숫자이다." % a)
+length = 2*r*3.14
+area = r*r*3.14
 
-elif a>=100 and a<=999:
-    print("%d는 세자리 숫자이다." %a)
-
-else:
-    print("오류! %d는 범위 이외의 숫자이다." %a)
+print("반지름 : %.2f cm"%r)
+print("원의 둘레 : %.2f cm"%length)
+print("원의 면적 : %.2f cm2" % area)
