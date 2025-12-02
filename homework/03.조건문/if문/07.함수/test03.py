@@ -1,7 +1,7 @@
 def member_join(*args):
     result = ''
     for arg in args:
-        result = result + arg + ''
+        result = result + arg + ' '
 
     print('가입 회원:', (result))
 
