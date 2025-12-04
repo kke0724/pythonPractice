@@ -1,9 +1,9 @@
-def cminch (x):
+def cm_inch (x):
     result = x * 0.393701
     
     return result
 
-def kgpound (y):
+def kg_pound (y):
     result2 = y * 2.204623
 
     return result2
@@ -16,10 +16,10 @@ math = input('원하는 환산 단위를 선택하세요.(1/2): ')
  
 if math == '1':
     cm = int(input('센티미터 단위의 길이를 입력하세요: '))
-    inch = cminch(cm)
+    inch = cm_inch(cm)
     print('%d 센티미터 --> %.2f 인치' % (cm,inch))
 
 else:
     kg = int(input('킬로그램 단위의 무게를 입력하세요: '))
-    pound = kgpound(kg)
+    pound = kg_pound(kg)
     print('%d 킬로그램 --> %2.1f 파운드' % (kg,pound))
