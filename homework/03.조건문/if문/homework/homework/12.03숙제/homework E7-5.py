@@ -6,7 +6,7 @@ print('4.나누기')
 
 math = int(input('원하는 연산을 선택하세요(1/2/3/4): '))
 math1  = int(input('첫 번째 숫자를 입력하세요: '))
-math2 = int(input('두 번째 숫자를 입력하세요:'))
+math2 = int(input('두 번째 숫자를 입력하세요: '))
 
 if math == 1:
     num = math1 + math2
