@@ -10,5 +10,5 @@ def count_space(a):
 sentence = "l'm benjamin kim. nice to meet you. l like apple juice and choclolate smoothy"
 
 print(sentence)
-num_space = count_space(sentence)
-print('-공백의 개수:',num_space)
+a = count_space(sentence)
+print('-공백의 개수:', a)
